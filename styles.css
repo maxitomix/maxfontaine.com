@@ -23,6 +23,7 @@ ul {
    text-align: center;
    height: 110px;
     gap: 12px;
+    text-decoration: none;
     }
 
  li{
