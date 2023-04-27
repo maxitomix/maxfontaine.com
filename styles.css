@@ -30,6 +30,8 @@ ul {
  li{
    margin: auto 0;
    text-align:top;
+   text-decoration: none;
+   list-style: none;
  }   
 
 
