@@ -34,6 +34,9 @@ ul {
    list-style: none;
  }   
 
+ .header{
+  height: fit-content;
+ }
 
 header, .section1{
     background-color: hsl(215, 28%, 17%);
@@ -47,6 +50,10 @@ header, .section1{
     align-items: stretch;
     gap: 10%;
     padding-bottom: 5%;
+}
+
+.sect1-a{
+  align-content: ;
 }
 
 .section3{
@@ -95,10 +102,13 @@ footer{
     margin: 0;
     font-family: "Source Sans Pro", sans-serif;
     height: 100vh;
+    width: 100vw;
     display: grid;
     /* place-content: center;
     text-align: center; */
     background: var(--bg-color);
+    justify-content: space-evenly;
+    justify-items: stretch;
   }
 
   body .section1 {
@@ -108,6 +118,10 @@ footer{
     place-content: center;
     text-align: center;
     background: var(--bg-color);
+  }
+
+  .section1{
+    padding-top: 0;
   }
   
   h1 {
@@ -151,6 +165,30 @@ footer{
     transform: translateY(3rem);
     animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
   }
+
+.links{
+  text-align: center;
+  color:#bcc2cd;
+  width: fit-content;
+  text-align: center;
+  justify-items: center;
+}
+
+.links li{
+  margin: .25rem;
+  padding: .5rem; /* added this */
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  background-color: #47A1B6;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.9); /* made the shadow a bit darker */
+  transition: all 0.3s ease-in-out;
+}
+
+.links li:hover {
+  box-shadow: 0px 10px 30px rgba(0,0,0,94); /* made the shadow a bit darker and larger */
+  transform: translateY(-3px);
+}
 
   @keyframes typewriter {
     to {
