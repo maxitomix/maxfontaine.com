@@ -6,6 +6,7 @@
     }
 
 .logo{
+  margin-top: .5rem;
 width: 100px;
 border-radius: 5px;
 margin-right: auto;
@@ -17,7 +18,7 @@ height: fit-content;
 
 
 }
-
+/* 
 ul {
     display: flex;
    text-align: center;
@@ -25,7 +26,7 @@ ul {
     gap: 12px;
     text-decoration: none;
     list-style: none;
-    }
+    } */
 
  li{
    margin: auto 0;
@@ -101,11 +102,11 @@ footer{
   body {
     margin: 0;
     font-family: "Source Sans Pro", sans-serif;
-    height: 100vh;
-    width: 100vw;
+    /* height:100dvh;
+    width: 100dvw; */
     display: grid;
-    /* place-content: center;
-    text-align: center; */
+    place-content: center;
+    text-align: center;
     background: var(--bg-color);
     justify-content: space-evenly;
     justify-items: stretch;
@@ -167,16 +168,24 @@ footer{
   }
 
 .links{
+  height: fit-content;
   text-align: center;
   color:#bcc2cd;
   width: fit-content;
-  text-align: center;
+  text-align: left;
   justify-items: center;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
+
 
 .links li{
   margin: .25rem;
-  padding: .5rem; /* added this */
+  padding: .5rem; 
   height: fit-content;
   display: flex;
   align-items: center;
