@@ -1,3 +1,14 @@
+
+@font-face {
+  font-family: 'neontubes';
+  src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot");
+  src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot?#iefix") format("embedded-opentype"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff2") format("woff2"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff") format("woff"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+/* Play on neon text by webdevtrick - https://webdevtrick.com/css-neon-text-effect/ */
+
+}
+
 * {
     box-sizing: border-box;
     --bg-color: hsl(215, 28%, 17%);
@@ -10,10 +21,19 @@
 }
 
 .logo{
-  width: fit-content;
-  position: absolute;
+  width: 100%;
+  /* position: absolute;
   top:.5rem;
-  left: .5rem;
+  left: .5rem; */
+  display: flex;
+  align-items:end
+}
+
+.header{
+  margin-top: 1rem;
+  height:fit-content ;
+  display: flex;
+  flex-direction: column;
 }
 
 body{
@@ -22,6 +42,7 @@ body{
 }
 
 .section3{
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: stretch;
@@ -39,23 +60,24 @@ body{
 
 footer{
 
-    background-color: #1f2937;
-    color: #e5e7eb;
-    text-align: center;
-    padding: 10px;
-    font-size: 1rem;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
    
 }
 
 .content{
   height: 100dvh;
   font-family: "Source Sans Pro", sans-serif;
-  place-content: stretch;
+  /* place-content: stretch; */
   text-align: center;
   align-items: center;
   background: var(--bg-color);
-  justify-content: space-evenly;
-  justify-items: stretch;
+  /* justify-content: space-evenly;
+  justify-items: stretch; */
+  justify-content: space-between;
   width:100%;
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
@@ -68,7 +90,7 @@ footer{
 
 
 .heroTitles{
-  margin-top: 60px;
+  /* margin-top: 70px; */
   text-align: center;
   width: fit-content;
   margin-left: auto;
@@ -124,9 +146,9 @@ h2 {
   color:#bcc2cd;
   width: fit-content;
   justify-items: center;
-  margin: 1rem;
-  margin-bottom: 2rem;
   width: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .links ul{
@@ -153,23 +175,82 @@ h2 {
 }
 
 footer {
-  margin-top: 1rem;
+  margin-top: auto;
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 10px;
   width: 100%;
-  font-size: 1rem;
-  position: absolute;
-  bottom: 0;
+  font-size: .75rem;
+    /* position: absolute;
+  bottom: 0; */
   
 }
 
-.neonMax{
+/* ----------------------------- */
 
+.neonMax {
+  /* position:absolute; */
+  /* top:50%;
+  left:0%; */
+  transform:translateY(-50%);
+  width:100%;
+  font-size:1em;
+  font-family: "neontubes";
+  color: #ffd9e2;
+  text-shadow: 0 0 0 transparent, 0 0 10px #ff003c, 0 0 20px rgba(255, 0, 60, 0.5), 0 0 40px #ff003c, 0 0 100px #ff003c, 0 0 200px #ff003c, 0 0 300px #ff003c, 0 0 500px #ff003c, 0 0 1000px #ff003c;
+  -webkit-animation: blink 4s infinite alternate;
+          animation: blink 4s infinite alternate;
 }
 
 
+@-webkit-keyframes buzz {
+  70% {
+    opacity: 0.80;
+  }
+}
+
+@keyframes buzz {
+  70% {
+    opacity: 0.80;
+  }
+}
+@-webkit-keyframes blink {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.8;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.2;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.8;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.2;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+
+/* ---------------------------- */
 @keyframes typewriter {
   to {
     left: 100%;
