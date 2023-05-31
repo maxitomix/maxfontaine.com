@@ -17,7 +17,7 @@
 }
 
 .content{
-  height: 100%;
+  height: 100dvh;
   font-family: "Source Sans Pro", sans-serif;
   /* place-content: stretch; */
   text-align: center;
@@ -35,7 +35,18 @@
   flex: 1 0 auto;
   position: relative;
 }
-    
+
+footer {
+  margin-top: auto;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  font-size: .75rem;
+  position: sticky;
+  top: 100vh;
+}   
 
 #logo{
   width: 100px;
@@ -58,9 +69,8 @@
 }
 
 body{
-
   background: var(--bg-color);
-  height: 100dvh;
+  /* height: 100dvh; */
 }
 
 .section3{
@@ -78,19 +88,6 @@ body{
   text-align: center;
   width: 75%;
 }
-
-
-footer{
-
-  background-color: #1f2937;
-  color: #e5e7eb;
-  text-align: center;
-  padding: 10px;
-  font-size: 1rem;
-   
-}
-
-
 
 .heroTitles{
   /* margin-top: 70px; */
@@ -177,18 +174,6 @@ h2 {
   transform: translateY(-3px);
 }
 
-footer {
-  margin-top: auto;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-  font-size: .75rem;
-    /* position: absolute;
-  bottom: 0; */
-  
-}
 
 /* ----------------------------- */
 
