@@ -17,7 +17,7 @@
 }
 
 .content{
-  height: 100dvh;
+  height: 100%;
   font-family: "Source Sans Pro", sans-serif;
   /* place-content: stretch; */
   text-align: center;
@@ -57,10 +57,11 @@
   flex-direction: column;
 }
 
-/* body{
+body{
 
   background: var(--bg-color);
-} */
+  height: 100dvh;
+}
 
 .section3{
   width: 100%;
