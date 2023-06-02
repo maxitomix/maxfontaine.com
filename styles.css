@@ -16,6 +16,10 @@
   --typewriterCharacters: 22;
 }
 
+.body{
+  margin: 0;
+}
+
 .content{
   height: 100dvh;
   font-family: "Source Sans Pro", sans-serif;
