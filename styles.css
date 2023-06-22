@@ -109,7 +109,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: transparent;
+  background-color:var(--background) ;
   
 
   margin: .5rem;
@@ -287,8 +287,9 @@ color: var(--background);
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  max-width: 350px;
-  min-height: auto;
+  width: 350px;
+
+  
   padding: 1rem;
   margin: 1rem;
   text-align: center;
@@ -311,12 +312,14 @@ color: var(--background);
 }
 
 .project-card p {
+  margin-top: auto;
+  margin-bottom: auto;
   font-size: 0.9em;
   color: var(--background);
 }
 
 .project-card a {
-  margin-top: 1rem;
+  margin-top: auto;
   color: var(--background);
   background-color: var(--primary-button);
   border-radius: 5px;
