@@ -448,3 +448,24 @@ color: var(--background);
   -webkit-animation: blink 4s infinite alternate;
           animation: blink 4s infinite alternate;
 }
+
+
+::-webkit-scrollbar{
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+  background-color: var(--secondary-button);
+  border-radius: 100vh;
+  /* margin-block: .5rem; */
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--text2nd);
+  border-radius: 100vh;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: var(--text);
+}
+
