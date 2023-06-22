@@ -102,3 +102,20 @@ projects.forEach(project => {
 
     projectContainer.appendChild(projectCard);
 });
+
+
+document.documentElement.setAttribute('data-theme', '0');
+
+const themeButton = document.getElementById('themeButton');
+let currentThemeIndex = 0;
+
+themeButton.addEventListener('click', () => {
+    if (currentThemeIndex === 4){
+       currentThemeIndex = 0
+       document.documentElement.setAttribute('data-theme', `${currentThemeIndex}`)
+    } else {
+        currentThemeIndex = currentThemeIndex  + 1;
+        document.documentElement.setAttribute('data-theme', `${currentThemeIndex}`)
+       
+    }
+});
