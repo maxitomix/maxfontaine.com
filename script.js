@@ -4,70 +4,70 @@ let projects = [
         description: "Practice basic JavaScript, variables, display update and design.",
         technology: "JavaScript",
         url: "http://maxfontaine.com/TOP-Project-Calculator/",
-        image: "./Placeholder Image.jpg"
+        image: "./projectImages/Calculator.jpg"
     },
     {
         name: "Restaurant Page",
         description: "Practice display update using JavaScript to destroy and re-load each page.",
         technology: "JavaScript",
         url: "http://maxfontaine.com/TOP_Restaurant-Page/",
-        image: "./Placeholder Image.jpg"
+        image: "./projectImages/pizza.jpg"
     },
     {
         name: "To-Do App",
         description: "Practice responsive design, listening to events and object manipulation.",
         technology: "JavaScript, HTML, CSS",
         url: "https://maxfontaine.com/TOP_Todo_app/",
-        image: "./Placeholder Image.jpg"
+        image: "./projectImages/todo.jpg"
     },
     {
         name: "Library",
         description: "Practice manipulating the DOM.",
         technology: "JavaScript, HTML, CSS",
         url: "http://maxfontaine.com/TOP-Project-Library/",
-        image: "./Placeholder Image.jpg"
+        image: "./projectImages/booklist.jpg"
     },
     {
         name: "Signup Form",
         description: "Practice data validation using JavaScript.",
         technology: "JavaScript, HTML, CSS",
         url: "http://maxfontaine.com/TOP_validating_forms_JS/",
-        image: "./Placeholder Image.jpg"
+        image: "./projectImages/signUpForm.jpg"
     },
     {
         name: "Weather App",
         description: "A basic weather App to practice working with APIs.",
         technology: "JavaScript, HTML, CSS, APIs",
         url: "http://maxfontaine.com/TOP_WeatherApp/",
-        image: "./Placeholder Image.jpg"
+        image: "./projectImages/weather_page.jpg"
     },
     {
         name: "Knight's Pathfinding Algorithm",
         description: "Practice computer science, pathfinding algorithms. Deep Traverse and Breadth Traverse. Backtrack.",
         technology: "JavaScript, HTML, CSS",
         url: "http://maxfontaine.com/TOP_Knights/",
-        image: "./Placeholder Image.jpg"
+        image: "./projectImages/knightPath.jpg"
     },
     {
         name: "Battleships",
         description: "Practice computer science, coding game logic to play Battleship.",
         technology: "JavaScript, HTML, CSS",
         url: "http://maxfontaine.com/TOP_Battleships2/",
-        image: "./Placeholder Image.jpg"
+        image: "./projectImages/battleship.jpg"
     },
     {
         name: "Inventory",
         description: "Practice thinking in React style. Hooks, props and states management",
         technology: "React, Node.js",
         url: "http://maxfontaine.com/react_inventory/",
-        image: "./Placeholder Image.jpg"
+        image: "./projectImages/inventory.jpg"
     },
     {
         name: "Tick-Tack-Toe with react",
         description: "Using React to record changes of state and to record a hiostory of moves. Travel back in time",
         technology: "React, Node.js",
         url: "http://maxfontaine.com/react_ticktacktoe/",
-        image: "./Placeholder Image.jpg"
+        image: "./projectImages/ticktack.jpg"
     },
 ];
 
