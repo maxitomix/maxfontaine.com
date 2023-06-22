@@ -77,10 +77,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--background );
+  
 }
 
 .hero{
-  height: 80vh;
+  height: 100vh;
   max-width: 65ch;
   margin: 0 auto;
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -111,13 +112,19 @@ body {
   font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-
-
-
-.header {
+.headerContainer{
+  width: 100%;
   position: sticky;
   top: 0;
+
   z-index: 1000;
+  background-color:var(--background) ;
+}
+
+.header {
+
+  max-width: 120ch;
+
 
   display: flex;
   justify-content: space-between;
@@ -126,6 +133,8 @@ body {
   
 
   margin: .5rem;
+  margin-left: auto;
+  margin-right: auto;
   @media (max-width: 800px) {
  
       flex-wrap: wrap;
@@ -228,27 +237,35 @@ margin-top: -70px;
 }
 
 .quote{
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 2rem;
-  width: 100%;
+  width: 70ch;
   display: flex;
   justify-content: space-evenly;
   align-items: stretch;
   gap: 10%;
   background-color: grey;
   height: max-content;
+  /* margin-bottom: 70px; */
 }
 
 .projects{
+  
   padding: 2rem;
   min-height: 20%;
   color: var(--text);
-  padding-top: 70px;  
-  margin-top: -70px;
+  padding-top: 80px;  
+  margin-top: -80px;
   @media (max-width: 800px) {
     padding: .5rem;
-    padding-top: 70px;  
-    margin-top: -70px;
+    padding-top: 80px;  
+    margin-top: -80px;
     }
+}
+
+.projects h2{
+  margin-top: 1rem;
 }
 
 .about{
@@ -291,6 +308,7 @@ margin-top: -70px;
   text-decoration: none;
 }
 
+
 .footer {
   display: flex;
   padding: 20px;
@@ -301,9 +319,6 @@ margin-top: -70px;
   justify-content: center;
 }
 
-.footer h2{
-  margin-left: auto;
-}
 
 
 #slider {
@@ -425,6 +440,7 @@ margin-top: -70px;
 
 
 .start {
+  margin: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   color: var(--text2nd);
