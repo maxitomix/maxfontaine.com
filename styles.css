@@ -81,8 +81,8 @@ body {
 }
 
 .hero{
-  height: 100vh;
-  max-width: 65ch;
+  height: 90vh;
+  /* max-width: 75%; */
   margin: 0 auto;
   font-family:Georgia, 'Times New Roman', Times, serif;
   display: flex;
@@ -103,7 +103,7 @@ body {
 
   @media (max-width: 800px) {
  
-    /* font-size: 1rem; */
+    max-width: 99%;
   }
 }
 
@@ -120,6 +120,23 @@ body {
   z-index: 1000;
 
   display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color:var(--background) ;
+  
+
+  margin: .5rem;
+  @media (max-width: 800px) {
+ 
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content:space-evenly;
+      margin-top: 0;
+    } 
+}
+
+.header{
+  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color:var(--background) ;
@@ -132,8 +149,7 @@ body {
       align-items: center;
       justify-content:space-evenly;
       margin-top: 0;
-    } */
-
+    } 
 
 }
 
@@ -515,5 +531,3 @@ margin-top: -70px;
   background-color: var(--text);
 
 }
-
-lala
