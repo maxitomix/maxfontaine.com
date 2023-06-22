@@ -77,10 +77,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--background );
+  
 }
 
 .hero{
-  height: 80vh;
+  height: 100vh;
   max-width: 65ch;
   margin: 0 auto;
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -102,7 +103,7 @@ body {
 
   @media (max-width: 800px) {
  
-    font-size: 1rem;
+    /* font-size: 1rem; */
   }
 }
 
@@ -111,12 +112,11 @@ body {
   font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-
-
-
-.header {
+.headerContainer{
+  width: 100%;
   position: sticky;
   top: 0;
+
   z-index: 1000;
 
   display: flex;
@@ -132,7 +132,7 @@ body {
       align-items: center;
       justify-content:space-evenly;
       margin-top: 0;
-    }
+    } */
 
 
 }
@@ -228,6 +228,8 @@ margin-top: -70px;
 }
 
 .quote{
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 2rem;
   width: 75%;
   display: flex;
@@ -236,19 +238,25 @@ margin-top: -70px;
   gap: 10%;
   background-color: grey;
   height: max-content;
+  /* margin-bottom: 70px; */
 }
 
 .projects{
+  
   padding: 2rem;
   min-height: 20%;
   color: var(--text);
-  padding-top: 70px;  
-  margin-top: -70px;
+  padding-top: 80px;  
+  margin-top: -80px;
   @media (max-width: 800px) {
     padding: .5rem;
-    padding-top: 70px;  
-    margin-top: -70px;
+    padding-top: 80px;  
+    margin-top: -80px;
     }
+}
+
+.projects h2{
+  margin-top: 1rem;
 }
 
 .about{
@@ -269,8 +277,8 @@ margin-top: -70px;
 }
 
 .cta {
-  margin: auto auto auto auto;
-  width:fit-content;
+  /* margin: auto auto auto auto; */
+  /* width:fit-content; */
   padding: 10px;
   background-color:var(--accent);
   color: var(--background);
@@ -291,6 +299,7 @@ margin-top: -70px;
   text-decoration: none;
 }
 
+
 .footer {
   display: flex;
   padding: 20px;
@@ -301,9 +310,6 @@ margin-top: -70px;
   justify-content: center;
 }
 
-.footer h2{
-  margin-left: auto;
-}
 
 
 #slider {
@@ -425,6 +431,7 @@ margin-top: -70px;
 
 
 .start {
+  margin: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   color: var(--text2nd);
