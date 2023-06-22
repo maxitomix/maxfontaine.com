@@ -25,7 +25,7 @@ let projects = [
         description: "Practice manipulating the DOM.",
         technology: "JavaScript, HTML, CSS",
         url: "http://maxfontaine.com/TOP-Project-Library/",
-        image: "./projectImages/booklist.jpg"
+        image: "./projectImages/bookList.jpg"
     },
     {
         name: "Signup Form",
