@@ -125,13 +125,13 @@ body {
   background-color:var(--background) ;
   
 
-  margin: .5rem;
+  padding: .5rem;
   @media (max-width: 800px) {
  
       flex-wrap: wrap;
       align-items: center;
       justify-content:space-evenly;
-      margin: .25;
+      padding: .25;
     } 
 }
 
