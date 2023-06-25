@@ -137,7 +137,7 @@ body {
 }
 
 .header{
- width: clamp(min(65%), 1070px, max(99%));
+ width: clamp(min(65%), 1400px, max(99%));
   min-width: 75%;
   display: flex;
   justify-content:space-evenly;
@@ -304,14 +304,21 @@ margin-top: -70px;
 }
 
 .cta {
-  /* margin: auto auto auto auto;
-  width:fit-content; */
+  position:fixed ;
+  right: 5%;
+  bottom: 2%;
+  height: fit-content;
+  width:fit-content;
   padding: 10px;
   background-color:var(--accent);
   color: var(--background);
   text-align: center;
   border-radius: 5px;
   text-decoration: none;
+  @media (max-width: 459px) {
+    right: 5%;
+    top: 2%;
+    }
  }
 
  .cta a{
