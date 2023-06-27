@@ -177,10 +177,12 @@ body {
 
 .nav ul li{
   background-color: var(--primary-button);
+  color: var(--background);
   text-align: center;
   border-radius: 5px;
   text-decoration: none;
   padding: 10px;
+  transition: background-color 0.3s ease;
   @media (max-width: 800px) {
     padding: 4px;
     margin-top: .5rem;
@@ -189,20 +191,45 @@ body {
 }
 
 
+.nav ul li:hover {
+  color: var(--text);
+  background-color: var(--secondary-button);
+}
 .nav ul li a {
   text-decoration: none;
-  color: var(--background);
+  color:inherit;
 }
 
-#themeButton{
-  background-color: var(--secondary-button);
-  border: none;
+.nav ul li a:hover {
+  color: var(--text);
+  background-color: inherit;
 }
+
 
 #theme{
   background-color: var(--secondary-button);
   border: 1px solid var(--text2nd);
   outline: transparent;
+  color: var(--text);
+}
+
+#themeButton{
+  background-color:inherit;
+  border: none;
+  color: inherit;
+}
+
+#theme:hover {
+  background-color: var(--primary-button);
+  border: 1px solid var(--text2nd);
+  outline: transparent;
+  color: var(--secondary-button);
+}
+
+#themeButton:hover{
+  background-color:inherit;
+  border: none;
+  color: inherit;
 }
 
 .nav{
@@ -319,14 +346,23 @@ margin-top: -70px;
     right: 5%;
     top: 2%;
     }
- }
+}
+
+.cta:hover {
+  color: var(--text);
+  background-color: var(--secondary-button);
+}
 
  .cta a{
   text-decoration: none;
   color: inherit;
- }
+  transition: background-color 0.3s ease;
+}
 
-
+.cta a:hover {
+  color: inherit;
+  /* background-color: var(--secondary-button); */
+}
 
 .footer a{
   color: var(--background);
@@ -408,8 +444,8 @@ margin-top: -70px;
 }
 
 .project-card a:hover {
-  background-color: #1a8cff;
-  color: #fff;
+  color: var(--text);
+  background-color: var(--secondary-button);
 }
 
 
