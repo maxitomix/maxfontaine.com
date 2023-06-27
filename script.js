@@ -69,6 +69,13 @@ let projects = [
         url: "http://maxfontaine.com/react_ticktacktoe/",
         image: "./projectImages/ticktack.jpg"
     },
+    {
+        name: "CV Editor with react",
+        description: "And interactive editor. Solidifies best practices on passind data between modules using state management and hooks",
+        technology: "React, Node.js",
+        url: "http://maxfontaine.com/top_cv_app/",
+        image: "./projectImages/cveditor.jpg"
+    },
 ];
 
 let projectContainer = document.getElementById('slider');
