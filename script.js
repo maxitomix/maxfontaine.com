@@ -58,25 +58,33 @@ let projects = [
     {
         name: "Inventory",
         description: "Practice thinking in React style. Hooks, props and states management",
-        technology: "React, Node.js",
+        technology: "Reacts",
         url: "http://maxfontaine.com/react_inventory/",
         image: "./projectImages/inventory.jpg"
     },
     {
         name: "Tick-Tack-Toe with react",
         description: "Using React to record changes of state and to record a hiostory of moves. Travel back in time",
-        technology: "React, Node.js",
+        technology: "React",
         url: "http://maxfontaine.com/react_ticktacktoe/",
         image: "./projectImages/ticktack.jpg"
     },
     {
         name: "CV Editor with react",
         description: "And interactive editor. Solidifies best practices on passind data between modules using state management and hooks",
-        technology: "React, Node.js",
+        technology: "React",
         url: "http://maxfontaine.com/top_cv_app/",
         image: "./projectImages/cveditor.jpg"
     },
+    {
+        name: "Memory Game",
+        description: "An interactive game of memory using React and APIs. Also a bit of animations and responsiveness",
+        technology: "React, Rest API",
+        url: "http://maxfontaine.com/top_memory_game/",
+        image: "./projectImages/memoryGame.jpg"
+    },
 ];
+
 
 let projectContainer = document.getElementById('slider');
 
