@@ -83,6 +83,13 @@ let projects = [
         url: "http://maxfontaine.com/top_memory_game/",
         image: "./projectImages/memoryGame.jpg"
     },
+        {
+        name: "Store Page",
+        description: "A marketplace store in react to practice creating checkout carts",
+        technology: "React + Vite",
+        url: "https://maxfontaine.com/top_shopping_cart/",
+        image: "./projectImages/store.jpg"
+    },
 ];
 
 
