@@ -90,6 +90,13 @@ let projects = [
         url: "https://maxfontaine.com/top_shopping_cart/",
         image: "./projectImages/store.jpg"
     },
+    {
+        name: "Where are they?",
+        description: "Find Wally clone. Photo tagging app using React with backend in Firebase - Google Cloud",
+        technology: "React + Vite, Firebase Firestore Database and Hosting.",
+        url: "https://where-are-they-c60c3.web.app/",
+        image: "./projectImages/wherearethey.jpg"
+    },
 ];
 
 
