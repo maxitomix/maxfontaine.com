@@ -97,6 +97,14 @@ let projects = [
         url: "https://where-are-they-c60c3.web.app/",
         image: "./projectImages/wherearethey.jpg"
     },
+    {
+        name: "Web be With You",
+        description: "Business Website for Web Developer Max Fontaine",
+        technology: "Wordpress + Elementor.",
+        url: "https://https://webbewithyou.com/",
+        image: "./projectImages/webbewithyou_screenshot.jpg"
+    },
+
 ];
 
 
