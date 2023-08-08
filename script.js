@@ -104,6 +104,13 @@ let projects = [
         url: "https://https://webbewithyou.com/",
         image: "./projectImages/webbewithyou_screenshot.jpg"
     },
+        {
+        name: "Fly Racing Chile",
+        description: "E-Commerce Website",
+        technology: "WIX",
+        url: "https://www.flyracingchile.cl/",
+        image: "./projectImages/flyRacing.jpg"
+    },
 
 ];
 
