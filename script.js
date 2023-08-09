@@ -101,7 +101,7 @@ let projects = [
         name: "Web be With You",
         description: "Business Website for Web Developer Max Fontaine",
         technology: "Wordpress + Elementor.",
-        url: "https://https://webbewithyou.com/",
+        url: "https://webbewithyou.com/",
         image: "./projectImages/webbewithyou_screenshot.jpg"
     },
         {
